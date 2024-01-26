@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//     http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -744,7 +744,7 @@ func main() {
 	}
 
 	startingQuotes := []string{
-		"Abstraction is ever present.",
+		/*"Abstraction is ever present.",
 		"A late night does not make any sense.",
 		"A principal idea is omnipresent, much like candy.",
 		"Nihilism gambles with lives, happiness, and even destiny itself!",
@@ -753,7 +753,12 @@ func main() {
 		"Non-locality is the driver of truth. By summoning, we vibrate.",
 		"A small mercy is nothing at all?",
 		"The last sentence you read is often sensible nonsense.",
-		"668: The Neighbor of the Beast.",
+		"668: The Neighbor of the Beast.",*/
+		"I Hate Quotes",
+		"This app will be the death of me",
+		"Is this working?",
+		"Im about 4 redbulls deep rn",
+		"HALP",
 	}
 
 	random := randomzeug.NewRandom()

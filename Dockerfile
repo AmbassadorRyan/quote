@@ -26,7 +26,7 @@ FROM foundation as builder
 COPY . .
 RUN make
 
-FROM gcr.io/distroless/base as runtime
+FROM gcr.io/distroless/base-debian12 as runtime
 
 COPY --from=builder /build/bin/qotm-linux-amd64 /bin/qotm
 COPY --from=builder /build/certs /certs
